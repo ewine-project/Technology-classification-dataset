@@ -1,7 +1,6 @@
 # Technology-classification-dataset
 RSSI measurement of Wi-Fi, LTE and DVB-T captured at various locations of Ghent, Belgium. 
 
-1. Dataset description
 The RSSI of the signals are captured for Wi-Fi, LTE, DVB-T and all the measurements
 are conducted in an office building of 12x80m. To increase the diversity of
 signal strength, the measurement locations are placed on the north, east, and
@@ -15,6 +14,7 @@ constant amount of carriers;
 
 LTE: Signal transmitted in very fine and regular intervals, modulated with constant
 amount of carriers;
+Dataset description
 
 DVB-T: Signals transmitted continuously and modulated with constant amount of carriers
 
@@ -29,10 +29,7 @@ aforementioned signal types. The samples are collected at the rate of 10 MHz
 for a duration of 1 second. The RSSI is calculated using Equation 1 for N =
 200. In total 50 k RSSI values are computed. 
 
- 
-
-2. Script
-
+Script
 MATLAB
 script for plotting the spectrogram of the signals can be found here:
     
